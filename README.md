@@ -49,10 +49,8 @@ To facilitate code reuse, the database code is separated into respective header 
   - AVL Tree is recommended for applications where maximum size and search performance are crucial.
   - std::map is suitable for general-purpose use due to ease of use and integration with the C++ STL.
 - **Memory Threshold**:
-  - Maximum memory recommended for the database: 52,428,800 for AVL Tree and 175,782 for std::map.
+  - The Maximum Size testing was done by limiting memory to 8Gb
 
 ## Code Reusability
 - After refactoring, the AVL Tree code becomes reusable for other projects with minor modifications.
 - Test code documentation is sufficient for understanding and replication with minor parameter changes.
-
-For detailed information and test code, refer to the [Assignment Documentation](#).
